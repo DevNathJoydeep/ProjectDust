@@ -1,0 +1,867 @@
+a, a:active, a:hover, a:link {
+	text-decoration: none !important;
+	color: rgba(56, 255, 142,1) !important;
+}
+
+.link {
+	text-decoration: underline;
+	text-decoration-style: dotted;
+	display: inline;
+}
+
+.wrapper {
+	background-color: rgba(51,51,51,1);
+	padding: 2em;
+	min-height: 100vh;
+	max-height: auto;
+}
+
+.title {
+	font-family: "Oswald", "sans-serif";
+	font-size: 4em;
+	font-weight: 300;
+	color: rgba(255,211,100,1);
+	text-align: center;
+	margin: 0.5em 0;
+}
+
+.titleSub {
+	font-family: "Oswald", "sans-serif";
+	font-size: 3em;
+	font-weight: 300;
+	color: rgba(255,211,100,1);
+	text-align: center;
+	margin: 0 0 0.25em 0;
+}
+
+.back {
+	font-family: "Oswald", "sans-serif";
+	font-size: 1.25em;
+	font-weight: 300;
+	color: rgba(255,211,100,1);
+	text-align: center;
+	margin: 0.75em 0 1.25em 0;
+}
+
+.heading {
+	font-family: "Raleway", "sans-serif";
+	font-size: 2em;
+	font-weight: 300;
+	color: rgba(250,105,100,1);
+	text-align: center;
+	margin: 1em 0;
+}
+
+
+.barContainer {
+	display: table;
+	margin: auto;
+	margin-top: 2em;
+	text-align: center;
+	border-collapse: separate;
+	border-spacing: 2em 0;
+}
+
+.midBarWrapper {
+	margin: auto;
+	text-align: center;
+}
+
+.midBar {
+	font-family: "Raleway", "sans-serif";
+	font-size: 1.25em;
+	font-weight: 300;
+	color: white;
+	display: inline-block;
+	background-color: rgba(40,40,40,1);
+	border: 2px solid rgba(56, 255, 142,1);
+	width: 80%;
+	padding: 2em;
+	height: auto;
+	margin: 2em 0 1em 0;
+	position: relative;
+	text-align: justify;
+}
+
+.leftBar {
+	display: table-cell;
+	background-color: rgba(40,40,40,1);
+	border: 2px solid rgba(56, 255, 142,1);
+	width: 60%;
+	padding: 2em;
+	height: auto;
+	margin: 1em;
+	position: relative;
+}
+
+.rightBar {
+	display: table-cell;
+	background-color: rgba(40,40,40,1);
+	border: 2px solid rgba(56, 255, 142,1);
+	width: 30%;
+	padding: 2em;
+	height: auto;
+	margin: 1em;
+	position: relative;
+}
+
+.finalPerc {
+	color: rgba(4,127,226,1);
+	font-family: "Raleway", "sans-serif";
+	font-weight: 100;
+	font-size: 6em;
+}
+
+.finalPercHeading {
+	color: rgba(56, 255, 142,1);
+	font-family: "Raleway", "sans-serif";
+	font-weight: 300;
+	font-size: 2em;
+}
+
+.finalPercQuote {
+	color: rgba(250,105,100,1);
+	font-family: "Raleway", "sans-serif";
+	font-weight: 300;
+	font-size: 1.5em;
+}
+
+.disclaimer {
+	color: rgba(250,105,100,1);
+	font-family: "Raleway", "sans-serif";
+	font-weight: 300;
+	font-size: 0.75em;
+	text-align: justify;
+	text-align-last: center;
+}
+
+.inputContainer {
+	margin: auto;
+	text-align: center;
+}
+
+.inputLeftNormal {
+	font-family: "Raleway", "sans-serif";
+	font-size: 1.2em;
+	font-weight: 300;
+	background-color: rgba(40,40,40,1);
+	border: 2px solid rgba(4,127,226,1);
+	color: rgba(4,127,226,1);
+	width: 45%;
+	padding: 0.25em 1em;
+	margin-right: 1em;
+	text-align: center;
+}
+
+.inputRightNormal {
+	font-family: "Raleway", "sans-serif";
+	font-size: 1.2em;
+	font-weight: 300;
+	background-color: rgba(40,40,40,1);
+	border: 2px solid rgba(4,127,226,1);
+	color: rgba(4,127,226,1);
+	width: 35%;
+	padding: 0.25em 1em;
+	margin-bottom: 1em;
+	text-align: center;
+}
+
+.inputRightNormal:last-child {
+	margin-bottom: 0;
+}
+
+.inputLeftNormal::placeholder, .inputRightNormal::placeholder {
+	color: rgba(250,105,100,1);
+}
+
+.inputLeftLateral {
+	font-family: "Raleway", "sans-serif";
+	font-size: 1.2em;
+	font-weight: 300;
+	background-color: rgba(40,40,40,1);
+	border: 2px solid rgba(4,127,226,1);
+	color: rgba(4,127,226,1);
+	width: 45%;
+	padding: 0.25em 1em;
+	margin-right: 1em;
+	text-align: center;
+}
+
+.inputRightLateral {
+	font-family: "Raleway", "sans-serif";
+	font-size: 1.2em;
+	font-weight: 300;
+	background-color: rgba(40,40,40,1);
+	border: 2px solid rgba(4,127,226,1);
+	color: rgba(4,127,226,1);
+	width: 35%;
+	padding: 0.25em 1em;
+	margin-bottom: 2.25em;
+	text-align: center;
+}
+
+.inputRightLateral:last-child {
+	margin-bottom: 0;
+}
+
+.inputLeftLateral::placeholder, .inputRightLateral::placeholder {
+	color: rgba(250,105,100,1);
+}
+
+
+span{
+  display: block;
+  padding: 0;
+}
+
+span::before, span::after{
+  content:"";
+  width:2px;
+  height:0;
+  position: absolute;
+  transition: all 0.2s linear;
+  background: rgba(4,127,226,1);
+}
+
+.buttonContainer {
+	margin: auto;
+	text-align: center;
+}
+
+.buttonNormal, .buttonLateral {
+  display: inline-block;
+  position: relative;
+	width: 25%;
+  background: none;
+  border: 1px solid rgba(4,127,226,1);
+	cursor: pointer;
+	box-sizing: content-box;
+	font-family: "Raleway", "sans-serif";
+	font-size: 2em;
+	font-weight: 300;
+	color: rgba(4,127,226,1);
+	padding: 3em;
+	margin: 1em;
+	text-align: center;
+}
+
+.buttonNative {
+  display: inline-block;
+  position: relative;
+	width: 25%;
+  background: none;
+  border: 1px solid rgba(4,127,226,1);
+	cursor: pointer;
+	box-sizing: content-box;
+	font-family: "Raleway", "sans-serif";
+	font-size: 1.25em;
+	font-weight: 300;
+	color: rgba(4,127,226,1);
+	padding: 1em 3em;
+	margin: 1.75em 3em 1em 3em;
+	text-align: center;
+}
+
+button::before, button::after{
+  content:"";
+  width: 0;
+  height: 2px;
+  position: absolute;
+  transition: all 0.2s linear;
+  background: rgba(4,127,226,1);
+}
+
+button:hover::before, button:hover::after{
+  width: 100%;
+}
+
+button:hover span::before, button:hover span::after{
+  height: 100%;
+}
+
+.buttonMain::after{
+  left: 0;
+  bottom: 0;
+  transition-delay: 0.6s;
+}
+.buttonMain span::after{
+  transition-delay: 0.4s;
+  right: 0;
+  bottom: 0
+}
+.buttonMain::before{
+  right: 0;
+  top: 0;
+  transition-delay: 0.2s;
+}
+.buttonMain span::before{
+  transition-delay: 0s;
+  left: 0;
+  top: 0;
+}
+
+.buttonMain:hover::after{
+  transition-delay: 0s;
+}
+.buttonMain:hover span::after{
+  transition-delay: 0.2s;
+}
+.buttonMain:hover::before{
+  transition-delay: 0.4s;
+}
+.buttonMain:hover span::before{
+  transition-delay: 0.6s;
+}
+
+.copyright {
+	font-family: "Roboto", "sans-serif";
+	font-size: 1.25em;
+	font-weight: 300;
+	color: rgba(56, 255, 142,1);
+	text-align: center;
+	margin: 2em 0 1em 0;
+}
+
+.copyrightAlt {
+	font-family: "Roboto", "sans-serif";
+	font-size: 1.25em;
+	font-weight: 300;
+	color: rgba(56, 255, 142,1);
+	text-align: center;
+	margin: 2em 0 1em 0;
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 966px) {
+   
+	.buttonNormal, .buttonLateral {
+		width: 20%;
+	}
+	
+	.copyrightAlt {
+		display: none;
+	}
+	
+}
+
+@media only screen and (max-width: 902px) {
+   
+	.title {
+		font-size: 3.5em
+	}
+	
+	.heading {
+		font-size: 1.75em;	
+	}
+	
+	.buttonNormal, .buttonLateral {
+		width: 20%;
+		font-size: 1.75em;
+	}
+	
+	.copyrightAlt {
+		display: none;
+	}
+	
+}
+
+@media only screen and (max-width: 790px) {
+   
+	.title {
+		font-size: 3.2em
+	}
+	
+	.heading {
+		font-size: 1.7em;	
+	}
+	
+	.buttonNormal, .buttonLateral {
+		width: 20%;
+		font-size: 1.5em;
+	}
+	
+	.copyright {
+		font-size: 1.15em;
+	}
+	
+	.copyrightAlt {
+		display: none;
+	}
+	
+	.barContainer {
+	display: inline-block;
+	margin-top: 2em;
+	text-align: center;
+}
+
+.leftBar {
+	display: inline-block;
+	background-color: rgba(40,40,40,1);
+	border: 2px solid rgba(56, 255, 142,1);
+	width: 80%;
+	padding: 1em;
+	height: auto;
+	margin: 0.25em;
+	position: relative;
+}
+
+.rightBar {
+	display: inline-block;
+	background-color: rgba(40,40,40,1);
+	border: 2px solid rgba(56, 255, 142,1);
+	width: 80%;
+	padding: 1em;
+	height: auto;
+	margin: 0.25em;
+	position: relative;
+}
+	
+	
+}
+
+@media only screen and (max-width: 796px) {
+   
+	.title {
+		font-size: 3.2em
+	}
+	
+	.heading {
+		font-size: 1.7em;	
+	}
+	
+	.buttonNormal, .buttonLateral {
+		width: 20%;
+		font-size: 1.5em;
+	}
+	
+	.copyright {
+		font-size: 1.15em;
+	}
+	
+	.copyrightAlt {
+		display: none;
+	}
+	
+}
+	
+@media only screen and (max-width: 690px) {
+   
+	.title {
+		font-size: 3.2em
+	}
+	
+	.heading {
+		font-size: 1.7em;	
+	}
+	
+	.buttonNormal, .buttonLateral {
+		width: 20%;
+		font-size: 1.35em;
+	}
+	
+	.copyright {
+		font-size: 1.15em;
+	}
+	
+	.copyrightAlt {
+		display: none;
+	}
+}
+		
+@media only screen and (max-width: 640px) {
+   
+	.title {
+		font-size: 3em
+	}
+	
+	.heading {
+		font-size: 1.5em;	
+	}
+	
+	.buttonNormal, .buttonLateral {
+		width: 20%;
+		font-size: 1.25em;
+	}
+	
+	.copyright {
+		font-size: 1.1em;
+	}
+	
+	.copyrightAlt {
+		display: none;
+	}
+	
+}
+
+@media only screen and (max-width: 320px) {
+   
+	.title {
+		font-size: 2em
+	}
+	
+	.heading {
+		font-size: 1.2em;	
+		margin-bottom: 2em;
+	}
+	
+	.buttonNormal, .buttonLateral {
+		width: 50%;
+		font-size: 1.25em;
+		padding: 0.75em 2em;
+		margin: 0.5em;
+	}
+	
+	.copyright {
+		display: none;
+	}
+		
+	.copyrightAlt {
+		display: block;
+		font-size: 1em;
+		text-align: center;
+	}
+	
+	.titleSub {
+		font-size: 2em;
+	}
+	
+.midBar {
+		padding: 0.75em;
+		font-size: 1em;
+		width: 100%;
+	}
+	
+.barContainer {
+	display: inline-block;
+	margin-top: 2em;
+	text-align: center;
+}
+
+.leftBar {
+	display: inline-block;
+	background-color: rgba(40,40,40,1);
+	border: 2px solid rgba(56, 255, 142,1);
+	width: 100%;
+	padding: 1em;
+	height: auto;
+	margin: 0.25em;
+	position: relative;
+}
+
+.rightBar {
+	display: inline-block;
+	background-color: rgba(40,40,40,1);
+	border: 2px solid rgba(56, 255, 142,1);
+	width: 100%;
+	padding: 1em;
+	height: auto;
+	margin: 0.25em;
+	position: relative;
+}
+	
+.finalPerc {
+	font-size: 4em;
+}
+
+.finalPercHeading {
+	margin-top: 0.5em;
+	font-size: 1.75em;
+}
+
+.finalPercQuote {
+	font-size: 1.1em;
+}
+
+.buttonNative {
+	font-size: 1em;
+	margin: 1.5em auto;
+}
+	
+.disclaimer {
+	font-size: 0.65em;
+	margin-top: 1.5em;
+}
+
+.inputLeftNormal, .inputLeftLateral {
+	font-size: 1em;
+	width: 50%;
+	padding: 0.25em;
+}
+	 
+.inputRightNormal {
+	font-size: 1em;
+	width: 40%;
+	padding: 0.25em;
+	margin-bottom: 0;
+}
+	
+	.inputRightLateral {
+	font-size: 1em;
+	width: 40%;
+	padding: 0.25em;
+}
+	
+	.back {
+		margin-top: -1em;
+		font-size: 1em;
+	}
+	
+}
+
+
+
+	
+@media only screen and (max-width: 375px) {
+   
+	.title {
+		font-size: 2.25em
+	}
+	
+	.heading {
+		font-size: 1.35em;	
+		margin-bottom: 2em;
+	}
+	
+	.buttonNormal, .buttonLateral {
+		width: 50%;
+		font-size: 1.35em;
+		padding: 1.25em 2em;
+		margin: 0.5em;
+	}
+	
+	.copyright {
+		display: none;
+	}
+		
+	.copyrightAlt {
+		display: block;
+		font-size: 1.1em;
+		text-align: center;
+	}
+	
+	.titleSub {
+		font-size: 2em;
+	}
+	
+	.midBar {
+		padding: 0.75em;
+		font-size: 1em;
+		width: 100%;
+	}
+	
+	
+.barContainer {
+	display: inline-block;
+	margin-top: 2em;
+	text-align: center;
+}
+
+.leftBar {
+	display: inline-block;
+	background-color: rgba(40,40,40,1);
+	border: 2px solid rgba(56, 255, 142,1);
+	width: 100%;
+	padding: 1em;
+	height: auto;
+	margin: 0.25em;
+	position: relative;
+}
+
+.rightBar {
+	display: inline-block;
+	background-color: rgba(40,40,40,1);
+	border: 2px solid rgba(56, 255, 142,1);
+	width: 100%;
+	padding: 1em;
+	height: auto;
+	margin: 0.25em;
+	position: relative;
+}
+	
+.finalPerc {
+	font-size: 4em;
+}
+
+.finalPercHeading {
+	margin-top: 0.5em;
+	font-size: 1.75em;
+}
+
+.finalPercQuote {
+	font-size: 1.1em;
+}
+
+.buttonNative {
+	font-size: 1em;
+	margin: 1.75em auto;
+}
+	
+.disclaimer {
+	font-size: 0.65em;
+	margin-top: 1.5em;
+}
+
+.inputLeftNormal, .inputLeftLateral {
+	font-size: 1em;
+	width: 50%;
+}
+	 
+.inputRightNormal {
+	font-size: 1em;
+	width: 40%;
+	margin-bottom: 1em;
+}	
+	
+	.inputRightLateral {
+	font-size: 1em;
+	width: 40%;
+	margin-bottom: 2.5em;
+}	
+	
+	.back {
+		margin-top: -1em;
+		font-size: 1.15em;
+	}
+		
+}
+	
+
+
+@media only screen and (max-width: 414px) {
+   
+	.title {
+		font-size: 2.25em
+	}
+	
+	.heading {
+		font-size: 1.35em;	
+		margin-bottom: 2em;
+	}
+	
+	.buttonNormal, .buttonLateral {
+		width: 50%;
+		font-size: 1.35em;
+		padding: 1.25em 2em;
+		margin: 0.5em;
+	}
+	
+	.copyright {
+		display: none;
+	}
+		
+	.copyrightAlt {
+		display: block;
+		font-size: 1.1em;
+		text-align: center;
+	}
+	
+	.titleSub {
+		font-size: 2.15em;
+	}
+	
+	.midBar {
+		padding: 1em;
+		font-size: 1.1em;
+		width: 100%;
+	}
+	
+.barContainer {
+	display: inline-block;
+	margin-top: 2em;
+	text-align: center;
+}
+
+.leftBar {
+	display: inline-block;
+	background-color: rgba(40,40,40,1);
+	border: 2px solid rgba(56, 255, 142,1);
+	width: 100%;
+	padding: 1em;
+	height: auto;
+	margin: 0.25em;
+	position: relative;
+}
+
+.rightBar {
+	display: inline-block;
+	background-color: rgba(40,40,40,1);
+	border: 2px solid rgba(56, 255, 142,1);
+	width: 100%;
+	padding: 1em;
+	height: auto;
+	margin: 0.25em;
+	position: relative;
+}
+	
+.finalPerc {
+	font-size: 4em;
+}
+
+.finalPercHeading {
+	margin-top: 0.5em;
+	font-size: 1.75em;
+}
+
+.finalPercQuote {
+	font-size: 1.1em;
+}
+
+.buttonNative {
+	font-size: 1em;
+	margin: 2em auto;
+}
+	
+.disclaimer {
+	font-size: 0.65em;
+	margin-top: 1.5em;
+}
+
+.inputLeftNormal, .inputLeftLateral {
+	font-size: 1em;
+	width: 50%;
+}
+	 
+.inputRightNormal, .inputRightLateral {
+	font-size: 1em;
+	width: 40%;
+}
+
+.back {
+		margin-top: -0.25em;
+		font-size: 1.15em;
+	}
+		
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
